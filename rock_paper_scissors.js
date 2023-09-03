@@ -43,3 +43,13 @@ function playRound(playerSelection, computerSelection) {
         }
     }
 }
+
+function game() {
+    const computerChoice = getComputerChoice();
+    const playerChoice = getPlayerChoice("rock");
+    console.log('You threw: ' + playerChoice);
+    console.log('The computer threw ' + computerChoice);
+    console.log(playRound(playerChoice, computerChoice));
+}
+
+game();
