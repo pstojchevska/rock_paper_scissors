@@ -10,3 +10,8 @@ function getComputerChoice() {
     }
     return choice;
 }
+
+const getPlayerChoice = playerChoice => {
+    playerChoice = playerChoice.toLowerCase();
+    return playerChoice;
+}
